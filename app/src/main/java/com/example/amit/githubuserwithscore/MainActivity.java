@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler1);
 
-
+// API Call Using Retrofit
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
